@@ -1,1 +1,18 @@
-// add solution here
+function theBeatlesPlay(musicians, instruments) {
+  let i = 0;
+  let band = [];
+  for (let i = 0; i < musicians.length && instruments.length; i++) {
+    band.push(`${musicians[i]} plays ${instruments[i]}`);
+  }
+  return band;
+}
+
+function johnLennonFacts(array) {
+  let i = 0;
+  let lennonFacts = [];
+  while (i < array.length) {
+    lennonFacts.push(array[i] + "!!!");
+    i++;
+  }
+  return lennonFacts;
+}
